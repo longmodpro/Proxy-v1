@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.ISEProxy" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#24103D</item>
+        <item name="android:navigationBarColor">#12091F</item>
+    </style>
+</resources>

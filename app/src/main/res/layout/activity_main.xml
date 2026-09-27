@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#12091F">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ISE PROXY"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Proxy đang tắt"
+        android:textColor="#BBBBBB"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/toggle"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:text="BẬT PROXY"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Lần đầu bật: Android sẽ hỏi quyền VPN và quyền hiển thị trên ứng dụng khác. Khi hoạt động, bong bóng tròn có thể kéo thả; nút X để tắt."
+        android:textColor="#AAAAAA"
+        android:textSize="14sp"/>
+</LinearLayout>
